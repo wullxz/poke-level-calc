@@ -26,7 +26,9 @@
     "react-virtualized": "7.17.1",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "tether": "latest",
+    "jquery": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
