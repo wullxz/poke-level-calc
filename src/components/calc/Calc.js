@@ -98,6 +98,9 @@ export default class Header extends Component {
                             <label className={"btn btn-secondary"+(this.props.goal === 30 ? ' active':'')} onClick={()=>this.props.setGoal(30)}>
                                 <input type="radio" name="options" id="option1" autoComplete="off" defaultChecked={this.props.goal === 30 ? 'checked':''} /> 30
                             </label>
+                            <label className={"btn btn-secondary"+(this.props.goal === 35 ? ' active':'')} onClick={()=>this.props.setGoal(35)}>
+                                <input type="radio" name="options" id="option3" autoComplete="off" defaultChecked={this.props.goal === 35 ? 'checked':''} /> 35
+                            </label>
                             <label className={"btn btn-secondary"+(this.props.goal === 40 ? ' active':'')} onClick={()=>this.props.setGoal(40)}>
                                 <input type="radio" name="options" id="option2" autoComplete="off" defaultChecked={this.props.goal === 40 ? 'checked':''} /> 40
                             </label>

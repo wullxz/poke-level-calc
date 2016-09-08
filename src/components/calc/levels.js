@@ -46,5 +46,6 @@ export default levels;
 
 export var totalXp = {
     30 : levels.slice(0,30).reduce((x, y) => x+y, 0),
+    35 : levels.slice(0,35).reduce((x, y) => x+y, 0),
     40 : levels.reduce((x, y) => x+y, 0)
 };
